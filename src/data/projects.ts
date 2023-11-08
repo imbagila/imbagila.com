@@ -6,14 +6,14 @@ export type Project = {
 };
 
 const projects: Project[] = [
-  // {
-  //   title: "Dictionary App",
-  //   techs: ["ReactJS (NextJS)", "react-query", "zod"],
-  //   link: "https://github.com/MaeWolff/dictionary-app",
-  // },
   {
     title: "Jingu • Kong Admin UI",
     techs: ["Kong", "SvelteKit", "Rust", "Tauri"],
+    link: "https://github.com/imbagila/jingu",
+  },
+  {
+    title: "Treant • Mongo Shard Visualizer",
+    techs: ["Mongo", "SvelteKit", "Rust", "Tauri"],
     link: "/",
     isComingSoon: true,
   },
